@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <title>Список меню</title>
+</head>
+<body>
+<h1>Список меню</h1>
+<div id="main-menu">
+    {% load menu_tags %}
+    {% draw_menu menu_name %}
+</div>
+</body>
+</html>
+{% block content %}
+{% endblock %}
